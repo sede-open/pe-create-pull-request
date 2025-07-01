@@ -1,4 +1,8 @@
 name: Create Pull Request Example Command
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
 on:
   repository_dispatch:
     types: [cpr-example-command]
